@@ -37,7 +37,8 @@ export default function About() {
                             <span className="flag">Freelance Experience</span>
                             <span className="time-wrapper"><span className="time">2020 - 2021</span></span>
                         </div>
-                        <div className="desc"><ul>JDP Electrical Services website <br/>
+                    <div className="desc">JDP Electrical Services Website<br/>
+                        <ul>
                             <li>
                             Developed and deployed Frontend (SPA) Single Page Application through AWS Web Services.
                             </li>
@@ -60,8 +61,8 @@ export default function About() {
                             <span className="flag">Club York</span>
                             <span className="time-wrapper"><span className="time">February  2018 - - July 2021</span></span>
                         </div>
-                        <div className="desc"><ul>
-                        Bartender <br/>
+                        <div className="desc"> Bartender <br/>
+                        <ul>
                             <li>
                             Managed the beverage service and customer requests.
                             </li>

@@ -38,7 +38,7 @@ export default function About() {
                                         behavior: 'smooth'
                                     });
                                 }}>
-                                <i className="fas fa-arrow-alt-circle-down"></i>
+                                <i className="fas fa-arrow-alt-circle-down" aria-label="Arrow Down"></i>
                                 </button>
                             </div>
                         </div>
