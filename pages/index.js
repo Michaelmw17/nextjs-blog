@@ -1,49 +1,35 @@
 import Head from 'next/head'
-import Layout, { siteTitle } from '../components/layout'
-import utilStyles from '../styles/utils.module.css'
-import { getSortedPostsData } from '../lib/posts'
-import Link from 'next/link'
-import Date from '../components/date'
-
-export async function getStaticProps() {
-  const allPostsData = getSortedPostsData()
-  return {
-    props: {
-      allPostsData
-    }
-  }
-}
-
-export default function Home({ allPostsData }){
-  return (
-    <Layout home>
-      <Head>
-        <title>{siteTitle}</title>
-      </Head>
-      <section className={utilStyles.headingMd}>
-        <p>I have Full Stack Web Development at the University of Sydney. I started the course as I enjoy the challenges of coding. I've learnt JavaScript, Html, CSS, Bootstrap, jQuery, API's, Node, Express, MySQL, NoSQL, MongoDB and more. Since then i have undergone a Full Stack Web Developer Internship at Entain where I futher developed me skills in the wed dev field </p>
-        <p>
-          (This is a sample website - you’ll be building a site like this on{' '}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
-        </p>
-      </section>
-      {/* Add this <section> tag below the existing <section> tag */}
-      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Blog</h2>
-        <ul className={utilStyles.list}>
-          {allPostsData.map(({ id, date, title }) => (
-           <li className={utilStyles.listItem} key={id}>
-          <Link href={`/posts/${id}`}>
-            <a>{title}</a>
-          </Link>
-          <br />
-          <small className={utilStyles.lightText}>
-            <Date dateString={date} />
-          </small>
-        </li>
-          ))}
-        </ul>
-      </section>
-    </Layout>
+import Image from 'next/Image'
+import Header from '../components/Header/Header'
+import About from '../components/About/About'
+import Project from '../components/Projects/Projects'
+import Work from '../components/Work/Work'
+import Footer from '../components/Footer/Footer'
+export default function Home() {
+  return (<>
+        <div className="flex flex-col items-center justify-center min-h-screen py-2">
+          <Head>
+            <title>Michael's Portfolio</title>
+            <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
+            <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
+            <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
+            <link rel="manifest" href="/site.webmanifest"/>
+            <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000"/>
+            <meta name="msapplication-TileColor" content="#da532c"/>
+            <meta name="theme-color" content="#ffffff"/>
+          </Head>
+          
+          <main  id="about" className="flex-col items-center justify-center w-full flex-1  text-center">
+            <Header/>
+            <About/>
+            <Project/>
+            <Work/>
+          </main>
+        </div>
+      <Footer/>
+      <script src="https://kit.fontawesome.com/339a1b456b.js"
+      crossOrigin="anonymous" defer>
+      </script>
+      </>
   )
 }

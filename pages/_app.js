@@ -1,5 +1,10 @@
-import '../styles/global.css'
+import 'tailwindcss/tailwind.css'
+import '../styles/styles.css'
+import '../styles/about.css'
+// import '../styles/Home.module.scss'
 
-export default function App({ Component, pageProps }) {
-    return <Component {...pageProps} />
-    }
+function MyApp({ Component, pageProps }) {
+  return <Component {...pageProps} />
+}
+
+export default MyApp
