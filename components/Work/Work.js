@@ -59,7 +59,7 @@ export default function About() {
                     <div className="direction-r">
                         <div className="flag-wrapper">
                             <span className="flag">Club York</span>
-                            <span className="time-wrapper"><span className="time">February  2018 - - July 2021</span></span>
+                            <span className="time-wrapper"><span className="time">February  2018 - July 2021</span></span>
                         </div>
                         <div className="desc"> Bartender <br/>
                         <ul>

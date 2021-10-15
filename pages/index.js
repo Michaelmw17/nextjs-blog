@@ -17,6 +17,7 @@ export default function Home() {
             <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000"/>
             <meta name="msapplication-TileColor" content="#da532c"/>
             <meta name="theme-color" content="#ffffff"/>
+            <meta name="description" content="This is My portfolio that I have created with NextJs, Tailwind and Deployed with Vercel. Author: M.Watt"/>
           </Head>
           
           <main  id="about" className="flex-col items-center justify-center w-full flex-1  text-center">
