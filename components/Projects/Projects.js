@@ -23,7 +23,8 @@ export default function Projects() {
                 </small><br/>
                     <a href="https://agr2020xman.github.io/Project_1-Basketball-News/" className="text-xl font-medium text-blue-600   mr-1">Basket News App!</a>
                     <div className="text-xl font-medium text-blue-600 dark:text-blue-500">&</div>
-                    <a href="https://github.com/AGr2020Xman/Project_1-Basketball-News" className="text-xl font-medium text-blue-600 dark:text-blue-500"> <i className="fab fa-github  fa-1x"></i></a>
+                    <a href="https://github.com/AGr2020Xman/Project_1-Basketball-News" className="text-xl font-medium text-blue-600 dark:text-blue-500">
+                    <i className="fab fa-github  fa-1x" title="github icon"></i></a>
                 </div>
             </div>
         <div className="max-w-md px-8 py-4 mx-auto mt-16 bg-white rounded-lg shadow-lg dark:bg-gray-800">
@@ -44,7 +45,8 @@ export default function Projects() {
                 </small><br/>
                     <a href="https://business-advertisement-portal.herokuapp.com/" className="text-xl font-medium text-blue-600 dark:text-blue-500  mr-2">BAP App!</a>
                     <div className="text-xl font-medium text-blue-600 dark:text-blue-500">&</div>
-                    <a href="https://github.com/prabhm512/business-advertisement-portal" className="text-xl font-medium text-blue-600 dark:text-blue-500"><i className="fab fa-github  fa-1x"></i></a>
+                    <a href="https://github.com/prabhm512/business-advertisement-portal" className="text-xl font-medium text-blue-600 dark:text-blue-500">
+                    <i className="fab fa-github  fa-1x" title="github icon"></i></a>
                 </div>
             </div>
         <div className="max-w-md px-8 py-4 mx-auto mt-16 bg-white rounded-lg shadow-lg dark:bg-gray-800">
@@ -65,9 +67,11 @@ export default function Projects() {
                 <div className="flex-row justify-end mt-4">
                 <small>Solo Project.
                 </small><br/>
-                    <a href="https://eco-getaway.herokuapp.com/" className="text-xl font-medium text-indigo-500 dark:text-indigo-300  mr-2">Eco App!</a>
-                    <div className="text-xl font-medium text-indigo-500 dark:text-indigo-300">&</div>
-                    <a href="https://github.com/Michaelmw17/environmental-build" className="text-xl font-medium text-indigo-500 dark:text-indigo-300"><i className="fab fa-github  fa-1x"></i></a>
+                    <a href="https://eco-getaway.herokuapp.com/" className="text-xl font-medium text-blue-600 dark:text-blue-500 mr-2">Eco App!</a>
+                    <div className="text-xl font-medium text-blue-600 dark:text-blue-500">&</div>
+                    <a href="https://github.com/Michaelmw17/environmental-build" className="text-xl font-medium text-blue-600 dark:text-blue-500">
+                    <i className="fab fa-github  fa-1x" title="github icon"></i>
+                    </a>
                 </div>
             </div>
         </div>
@@ -87,10 +91,10 @@ export default function Projects() {
                 <small>Solo Project.
                 </small>
                 <br/>
-                    <a href="https://www.jdpelectrical.com.au/"className="text-xl font-mediumtext-blue-600 dark:text-blue-500 mr-1">JDP App!</a>
+                    <a href="https://www.jdpelectrical.com.au/"className="text-xl font-medium text-blue-600 dark:text-blue-500 mr-1">JDP App!</a>
                     <div className="text-xl font-medium text-blue-600 dark:text-blue-500">&</div>
                     <a href="https://github.com/Michaelmw17/computing-machine" className="text-xl font-medium text-blue-600 dark:text-blue-500">
-                    <i className="fab fa-github  fa-1x"></i></a>
+                    <i className="fab fa-github  fa-1x"  title="github icon"></i></a>
                 </div>
             </div>
             </>
