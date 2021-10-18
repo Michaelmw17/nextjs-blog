@@ -22,8 +22,8 @@ export default function About() {
                         <h1 className="mx-auto mt-1  break-words typewriter  font-semibold  dark:text-white text-2xl">Welcome to my portfolio<br/>
                         My name is Michael</h1>
                         <div className="p-8 md:p-14 md:pt-1 leading-8 md:text-sm mt-0">
-                            <p className="mt-2 p-intro">I have completed a Full Stack Web Development at the University of Sydney. My recent internship at Entain along with my Web Development study have developed my skills in JavaScript, ReactJS, NodeJS, jQuery, VueJS, HandlebarsJS, HTML5/CSS3, SASS, API's, Node, AWS, Heroku, Go, MySQL, MongoDB, Jira, Confluence and more.</p>
-                            <p className="mt-2 p-intro-two">Currently completing an Internship with Entain. I have completed Certificate IV in Business Studies and have experience in customer service. I would describe my self as a driven, organised and open-minded person with creative ideas, who is motivated to use my skills and knowledge in a Web Development team. I hope for an exciting career and am always up for a challenge.</p>
+                            <p className="mt-2 p-intro">I achieved my Certificate in Full Stack Web Development  at the University of Sydney. During my recent internship along with my Web Development study I have developed my skills in JavaScript, ReactJS, NodeJS, jQuery, VueJS, HandlebarsJS, HTML5/CSS3, SASS, API's, Node, AWS, Heroku, Go, MySQL, MongoDB, Jira, Confluence and more.</p>
+                            <p className="mt-2 p-intro-two">Completed Internship with Entain, Certificate IV in Business Studies and have experience in customer service. I would describe my self as a driven, organised and open-minded person with creative ideas, who is motivated to use my skills and knowledge in a Web Development team. I hope for an exciting career and am always up for a challenge.</p>
                             <div className="mt-2 mb-0 md:flex-shrink-0 md:pt-5">
                             <Image 
                             className="w-32 h-32 md:w-48 md:h-auto  rounded-full mx-auto" 

@@ -52,6 +52,31 @@ export default function Projects() {
                 </div>
             </div>
         <div className="max-w-md px-8 py-4 mx-auto mt-16 bg-white rounded-lg shadow-lg dark:bg-gray-800">
+                <div className="flex justify-center -mt-16 md:justify-end">
+            <div className="object-cover w-20 h-20 border-2 border-indigo-500 rounded-full dark:border-indigo-400">
+            <Image  alt="Basketball avatar" src="/images/Project/Images/basketball-removebg-preview.png"
+                width="100" height="100"
+                />
+            </div>
+            </div>
+            <h2 className="mt-2 text-2xl font-semibold text-gray-800 dark:text-white md:mt-0 md:text-3xl">Basket News</h2>
+                <p className="mt-2 text-gray-600 dark:text-gray-200 mb-24 md:mb-24">
+                Welcome to the Basket News web app! Are you a fan of the NBA or have a favourite player? Basket News brings all this useful information, want to keep up to date on this seasons player statistics? Do you want to easily pull up some news archives about your athlete into one place. Don't believe us? Just try it out and you'll never need to search anywhere else for your NBA stats or news!
+                </p>
+                <div className="mb-24 md:mb-40">
+                </div>
+                <div className="flex-row justify-end mt-6">
+                <small>With - Andre Grech, Rachelle Barredo.
+                </small><br/>
+                    <a href="https://agr2020xman.github.io/Project_1-Basketball-News/" className="text-xl font-medium text-blue-600 ">Basket News App!</a>
+                    <div className="text-xl font-medium text-blue-600 dark:text-blue-500">&</div>
+                    <a href="https://github.com/AGr2020Xman/Project_1-Basketball-News" className="text-xl font-medium text-blue-600 dark:text-blue-500">
+                    <i className="fab fa-github  fa-1x" title="github icon"></i></a>
+                </div>
+            </div>
+        </div>
+        <div className="max-w-md px-8 py-4 mx-auto mt-16 bg-white rounded-lg shadow-lg dark:bg-gray-800">
+            
             <div className="flex justify-center -mt-16 md:justify-end">
             <div className="object-cover w-20 h-20 border-2 border-indigo-500 rounded-full dark:border-indigo-400">
             <Image className="object-cover w-20 h-20 border-2 border-indigo-500 rounded-full dark:border-indigo-400"  
@@ -64,10 +89,9 @@ export default function Projects() {
             <h2 className="mt-2 text-2xl font-semibold text-gray-800 dark:text-white md:mt-0 md:text-3xl">Eco Getaway</h2>
 
                 <p className="mt-2 text-gray-600 dark:text-gray-200">Looking for your next environmental getaway?
-                Choose an application that advertises Low Environmental impact holiday accommodation. The site promotes Eco-friendly getaways and provides information on each type of accommodation, sign in, fill out the registration form to view our gallery of photos and enquiry options.</p>
-                <div className="mb-24 md:mb-44">
-                </div>
-                <div className="flex-row justify-end mt-4">
+                Choose an application that advertises Low Environmental impact holiday accommodation. The site promotes Eco-friendly getaways and provides information on each type of accommodation, sign in, fill out the registration form to view our gallery of photos and enquiry options.
+                </p>
+                <div className="flex-row justify-end mt-5">
                 <small>Solo project.
                 </small><br/>
                     <a href="https://eco-getaway.herokuapp.com/" className="text-xl font-medium text-blue-600 dark:text-blue-500">Eco App!</a>
@@ -75,28 +99,6 @@ export default function Projects() {
                     <a href="https://github.com/Michaelmw17/environmental-build" className="text-xl font-medium text-blue-600 dark:text-blue-500">
                     <i className="fab fa-github  fa-1x" title="github icon"></i>
                     </a>
-                </div>
-            </div>
-        </div>
-        <div className="max-w-md px-8 py-4 mx-auto mt-16 bg-white rounded-lg shadow-lg dark:bg-gray-800">
-            <div className="flex justify-center -mt-16 md:justify-end">
-            <div className="object-cover w-20 h-20 border-2 border-indigo-500 rounded-full dark:border-indigo-400">
-            <Image  alt="Basketball avatar" src="/images/Project/Images/basketball-removebg-preview.png"
-                width="100" height="100"
-                />
-            </div>
-            </div>
-            <h2 className="mt-2 text-2xl font-semibold text-gray-800 dark:text-white md:mt-0 md:text-3xl">Basket News</h2>
-                <p className="mt-2 text-gray-600 dark:text-gray-200 mb-24 md:mb-24">
-                Welcome to the Basket News web app! Are you a fan of the NBA or have a favourite player? Basket News brings all this useful information, want to keep up to date on this seasons player statistics? Do you want to easily pull up some news archives about your athlete into one place. Don't believe us? Just try it out and you'll never need to search anywhere else for your NBA stats or news!
-                </p>
-                <div className="flex-row  justify-end">
-                <small>With - Andre Grech, Rachelle Barredo.
-                </small><br/>
-                    <a href="https://agr2020xman.github.io/Project_1-Basketball-News/" className="text-xl font-medium text-blue-600 ">Basket News App!</a>
-                    <div className="text-xl font-medium text-blue-600 dark:text-blue-500">&</div>
-                    <a href="https://github.com/AGr2020Xman/Project_1-Basketball-News" className="text-xl font-medium text-blue-600 dark:text-blue-500">
-                    <i className="fab fa-github  fa-1x" title="github icon"></i></a>
                 </div>
             </div>
             </>
