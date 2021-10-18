@@ -21,7 +21,7 @@ export default function About() {
                             Worked with design team and developing solutions using Vue.js
                             </li>
                             <li>
-                            Job ticketing systems, Jira experience.
+                            Jira sprints & Confluence Documentation.
                             </li>
                             <li>
                             Good communications skills, attention to detail and a great attitude towards learning.

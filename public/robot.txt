@@ -1,6 +1,4 @@
-Sitemap: https://nextjs-blog-ecru-six-30.vercel.app/api/posts-sitemap
-
 User-agent: *
-Allow: /*
-
-Disallow: /api/*
+Disallow: 
+Disallow: /cgi-bin/
+Sitemap: https://nextjs-blog-j2y0tubur-michaelmw17.vercel.app/

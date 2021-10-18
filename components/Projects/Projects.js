@@ -7,7 +7,7 @@ export default function Projects() {
         <div className="max-w-md px-8 py-4 mx-auto mt-16 bg-white rounded-lg shadow-lg dark:bg-gray-800">
             <div className="flex justify-center -mt-16 md:justify-end">
             <div className="object-cover w-20 h-20 border-2 border-indigo-500 rounded-full dark:border-indigo-400">
-            <Image  alt="Testimonial avatar" src="/images/Project/Images/basketball-removebg-preview.png"
+            <Image  alt="Basketball avatar" src="/images/Project/Images/basketball-removebg-preview.png"
                 width="100" height="100"
                 />
             </div>
@@ -30,7 +30,7 @@ export default function Projects() {
         <div className="max-w-md px-8 py-4 mx-auto mt-16 bg-white rounded-lg shadow-lg dark:bg-gray-800">
             <div className="flex justify-center -mt-16 md:justify-end">
             <div className="object-cover w-20 h-20 border-2 border-indigo-500 rounded-full dark:border-indigo-400">
-            <Image  alt="Testimonial avatar" src="/images/Project/Images/202a200d-dc06-4960-a219-348c189ab453_200x200.png"
+            <Image  alt="BAP logo" src="/images/Project/Images/202a200d-dc06-4960-a219-348c189ab453_200x200.png"
                 width="100" height="100"
                 />
             </div>
@@ -52,7 +52,8 @@ export default function Projects() {
         <div className="max-w-md px-8 py-4 mx-auto mt-16 bg-white rounded-lg shadow-lg dark:bg-gray-800">
             <div className="flex justify-center -mt-16 md:justify-end">
             <div className="object-cover w-20 h-20 border-2 border-indigo-500 rounded-full dark:border-indigo-400">
-            <Image className="object-cover w-20 h-20 border-2 border-indigo-500 rounded-full dark:border-indigo-400"  alt="Testimonial avatar" src="/images/Project/Images/EcoGetawayLogo.jpg"
+            <Image className="object-cover w-20 h-20 border-2 border-indigo-500 rounded-full dark:border-indigo-400"  
+            alt="Eco Logo" src="/images/Project/Images/EcoGetawayLogo.jpg"
                 width="100" height="100"
                 />
             </div>
@@ -78,7 +79,8 @@ export default function Projects() {
         <div className="max-w-md px-8 py-4 mx-auto mt-16 bg-white rounded-lg shadow-lg dark:bg-gray-800">
             <div className="flex justify-center -mt-16 md:justify-end">
             <div className="object-cover w-20 h-20 border-2 border-indigo-500 rounded-full dark:border-indigo-400">
-                <Image className="object-cover w-20 h-20 border-2 border-indigo-500 rounded-full dark:border-indigo-400" alt="Testimonial avatar" src="/images/apple-touch-icon.png" width="200" height="200"/>
+                <Image className="object-cover w-20 h-20 border-2 border-indigo-500 rounded-full dark:border-indigo-400" 
+                alt="JDP Logo" src="/images/apple-touch-icon.png" width="200" height="200"/>
             </div>
             </div>
 
