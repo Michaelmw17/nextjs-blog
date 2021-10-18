@@ -23,8 +23,8 @@ export default function Home() {
           <main  id="about" className="flex-col items-center justify-center w-full flex-1  text-center">
             <Header/>
             <About/>
-            <Project/>
             <Work/>
+            <Project/>
           </main>
         </div>
       <Footer/>

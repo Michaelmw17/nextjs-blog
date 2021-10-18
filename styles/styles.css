@@ -222,15 +222,17 @@
     /* color: rgb(194, 191, 191); */
     overflow: hidden;
     /* Ensures the content is not revealed until the animation */
-    border-right: 1px solid #E91E63;
+    border-right: 1px solid #e51b5e;
     /* The typwriter cursor */
-  white-space: nowrap;
+    white-space: nowrap;
     /* Keeps the content on a single line */
-    /* margin: 0 auto; */
+    padding: 0 auto;
     /* Gives that scrolling effect as the typing happens */
     letter-spacing: 1px;
     /* Adjust as needed */
     animation: typing 3.5s steps(150, end), blink-caret .5s step-end infinite;
+    /* margin: 10px 10px 0px 10px; */
+    
 }
 
 /* The typing effect */
@@ -251,6 +253,6 @@
         border-color: transparent
     }
     50% {
-        border-color: #E91E63;
+        border-color: #e01d5e;
     }
 }

@@ -13,21 +13,29 @@ export default function About() {
                             <span className="time">July 2021 - October 2021</span></span>
                         </div>
                         <div className="desc">Full Stack Web Developer Internship<br/>
-                        <ul>
-                            <li>
-                            Experience working with Micro-frontend Applications  
-                            </li>
-                            <li>
-                            Worked with design team and developing solutions using Vue.js
-                            </li>
-                            <li>
-                            Jira sprints & Confluence Documentation.
-                            </li>
-                            <li>
-                            Good communications skills, attention to detail and a great attitude towards learning.
-                            </li>
-                        </ul>
-                        
+                            <ul>
+                                <li>
+                                Experience working with Micro-frontend Applications.
+                                </li>
+                                <li>
+                                Worked with design team and developing solutions using Vue.js.
+                                </li>
+                                <li>
+                                Jira sprints & Created user documentation including Confluence experience.
+                                </li>
+                                <li>
+                                Culturally well-liked, SWAT project team member, daily stand-ups, agile development and SCRUM.
+                                </li>
+                                <li>
+                                Quality testing and Liaised with key stakeholders and development team.
+                                </li>
+                                <li>
+                                Training in development tools and methodologies.
+                                </li>
+                                <li>
+                                Good communications skills, attention to detail and a great attitude towards learning.
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </li>
@@ -48,9 +56,6 @@ export default function About() {
                             <li>
                             Development of website from design, deploy & domain transfer.
                             </li>
-                            <li>
-                            Weekly catch ups and design checks with customer.
-                            </li>
                         </ul>
                         </div>
                     </div>
@@ -61,24 +66,24 @@ export default function About() {
                             <span className="flag">Club York</span>
                             <span className="time-wrapper"><span className="time">February  2018 - July 2021</span></span>
                         </div>
-                        <div className="desc"> Bartender <br/>
-                        <ul>
-                            <li>
-                            Managed the beverage service and customer requests.
-                            </li>
-                            <li>
-                            Maintained stock, managing and restocking pre-shift, reported on loss or damage.
-                            </li>
-                            <li>
-                            Handled cash, credit card and EFT facilities.
-                            </li>
-                            <li>
-                            Participated in team meetings and other work-related meetings. Ensured licensing laws and legislative requirements were adhered to.
-                            </li>
-                        </ul></div>
+                        <div className="desc"> Bartender<br/>
+                            <ul>
+                                <li>
+                                Managed the beverage service and customer requests.
+                                </li>
+                                <li>
+                                Maintained stock, managing and restocking pre-shift, reported on loss or damage.
+                                </li>
+                                <li>
+                                Handled cash, credit card and EFT facilities.
+                                </li>
+                                <li>
+                                Participated in team meetings and other work-related meetings. Ensured licensing laws and legislative requirements were adhered to.
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </li>
-            
             </ul>
         </div>
         </>

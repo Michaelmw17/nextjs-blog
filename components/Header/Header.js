@@ -25,13 +25,6 @@ const Header = () => {
                                     });
                                 }}>About</button>
                 </li>
-                <li>
-                    <button onClick={() => {
-                            window.scrollTo({
-                                top: document.getElementById('projects').offsetTop,
-                                behavior: 'smooth'
-                            });
-                        }}>Projects</button></li>
                     <li>
                         <button onClick={() => {
                             window.scrollTo({
@@ -39,6 +32,13 @@ const Header = () => {
                                 behavior: 'smooth'
                             });
                         }}>Work Experience</button></li>
+                <li>
+                    <button onClick={() => {
+                            window.scrollTo({
+                                top: document.getElementById('projects').offsetTop,
+                                behavior: 'smooth'
+                            });
+                        }}>Projects</button></li>
                     <li>
                         <button onClick={() => {
                             window.scrollTo({
