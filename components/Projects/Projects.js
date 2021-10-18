@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function Projects() {
     return (<>
-        <h1 className="m-2  font-semibold text-gray-800 dark:text-white md:mt-0 text-3xl">Projects</h1>
+        <h1 id="projects" className="m-2  font-semibold text-gray-800 dark:text-white md:mt-0 text-3xl">Projects</h1>
     <div className="lg:flex-row xl:flex justify-center mt-26 md:justify-end ">
         <div className="max-w-md px-8 py-4 mx-auto mt-16 bg-white rounded-lg shadow-lg dark:bg-gray-800">
 <div className="flex justify-center -mt-16 md:justify-end">
@@ -20,7 +20,7 @@ export default function Projects() {
                  <div className="mb-14 md:mb-44">
                 </div>
                 <div className="flex-row justify-end mt-6">
-                <small>Solo Project.
+                <small>Solo project.
                 </small>
                 <br/>
                     <a href="https://www.jdpelectrical.com.au/"className="text-xl font-medium text-blue-600 dark:text-blue-500">JDP App!</a>
@@ -68,7 +68,7 @@ export default function Projects() {
                 <div className="mb-24 md:mb-44">
                 </div>
                 <div className="flex-row justify-end mt-4">
-                <small>Solo Project.
+                <small>Solo project.
                 </small><br/>
                     <a href="https://eco-getaway.herokuapp.com/" className="text-xl font-medium text-blue-600 dark:text-blue-500">Eco App!</a>
                     <div className="text-xl font-medium text-blue-600 dark:text-blue-500">&</div>

@@ -30,11 +30,11 @@ export default function About() {
                             src="/images/circle_cropped_xqZusntQvdP_-Y1oAejgs.jpg" alt="Profile" width="300" height="300"/>
                             </div>
                             <div className="flex">
-                                <button  id='projects' 
+                                <button
                                 className="bg-blue-500 hover:bg-blue-700 text-white font-bold mt-3 py-3 px-8 rounded-full"
                                 onClick={() => {
                                     window.scrollTo({
-                                        top: document.getElementById('projects').offsetTop,
+                                        top: document.getElementById('work').offsetTop - 90,
                                         behavior: 'smooth'
                                     });
                                 }}>

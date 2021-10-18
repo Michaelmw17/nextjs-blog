@@ -28,15 +28,16 @@ const Header = () => {
                     <li>
                         <button onClick={() => {
                             window.scrollTo({
-                                top: document.getElementById('work').offsetTop,
+                                top: document.getElementById('work').offsetTop - 90,
                                 behavior: 'smooth'
                             });
                         }}>Work Experience</button></li>
                 <li>
                     <button onClick={() => {
                             window.scrollTo({
-                                top: document.getElementById('projects').offsetTop,
-                                behavior: 'smooth'
+                                top: document.getElementById('projects').offsetTop - 90,
+                                behavior: 'smooth',
+                                paddingBottom: '10px'
                             });
                         }}>Projects</button></li>
                     <li>

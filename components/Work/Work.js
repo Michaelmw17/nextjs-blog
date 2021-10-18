@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function About() {
     return (<>
-        <div  className="container mt-5 ">
+        <div id='work'  className="container mt-5 ">
             <h1  className="m-2  mt-10 font-semibold text-gray-800 dark:text-white md:mt-10 text-3xl">Work Experience</h1>
             <ul className="timeline">
                 <li>
