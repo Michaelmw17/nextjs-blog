@@ -19,7 +19,7 @@ export default function About() {
                                 </g>
                             </svg>
                         </div>
-                        <h1 className="mx-auto mt-1  break-words typewriter  font-semibold  dark:text-white text-2xl">Welcome to my portfolio<br/>
+                        <h1 className="mx-auto mt-1  break-words typewriter text-2xl">Welcome to my portfolio<br/>
                         My name is Michael</h1>
                         <div className="p-8 md:p-14 md:pt-1 leading-8 md:text-sm mt-0">
                             <p className="mt-2 p-intro">I achieved my Certificate in Full Stack Web Development  at the University of Sydney. During my recent internship along with my Web Development study I have developed my skills in JavaScript, ReactJS, NodeJS, jQuery, VueJS, HandlebarsJS, HTML5/CSS3, SASS, API's, Node, AWS, Heroku, Go, MySQL, MongoDB, Jira, Confluence and more.</p>

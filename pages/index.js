@@ -15,6 +15,9 @@ export default function Home() {
             <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
             <link rel="manifest" href="/site.webmanifest"/>
             <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000"/>
+            <link rel="preconnect" href="https://fonts.googleapis.com"/>
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+            <link rel="preconnect" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto&display=swap" rel="stylesheet"/>
             <meta name="msapplication-TileColor" content="#da532c"/>
             <meta name="theme-color" content="#ffffff"/>
             <meta name="description" content="This is My portfolio that I have created with NextJs, Tailwind and Deployed with Vercel. Author: M.Watt"/>

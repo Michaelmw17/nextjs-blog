@@ -48,10 +48,10 @@ export default function About() {
                     <div className="desc">JDP Electrical Services Website<br/>
                         <ul>
                             <li>
-                            Developed and deployed Frontend (SPA) Single Page Application through AWS Web Services.
+                            Developed and deployed  (SPA) Single Page Application & Landing page through AWS Web Services.
                             </li>
                             <li>
-                            Liaised with the client to develop frontend experience.
+                            Liaised weekly with the client to develop frontend experience.
                             </li>
                             <li>
                             Development of website from design, deploy & domain transfer.
