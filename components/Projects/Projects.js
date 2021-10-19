@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function Projects() {
     return (<>
-    <div className="project-container">
+    <div className="project-container m-2 ">
         <h1
         className="m-2 mt-10  font-semibold text-gray-800 dark:text-white md:mt-16 text-3xl">Projects</h1>
         <div className="lg:flex-row xl:flex justify-center mt-26 md:justify-end ">

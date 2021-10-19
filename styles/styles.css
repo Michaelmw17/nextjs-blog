@@ -26,3 +26,16 @@ p {
 #menu-toggle:checked + #menu {
   display: block;
 }
+#contact {
+  z-index: -1;
+}
+.about-section  {
+   z-index:2;
+    position:relative;
+    width:100%;
+    /* height:400px; */
+    /* margin-top:300px; */
+    
+    /* background-color:white; */
+    /* padding-top:50px; */
+}

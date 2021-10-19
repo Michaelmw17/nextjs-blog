@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function About() {
     return (<>
-            <figure className="md:flex rounded-xl p-8  mt-8 md:p-6 md:m-6 md:mb-0 lg:m-10 lg:mb-0">
+            <figure className="about-section md:flex rounded-xl p-8  mt-8 md:p-6 md:m-6 md:mb-0 lg:m-10 lg:mb-0">
                 <div className="max-w-md mt-11 mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl  mb-5 mt-16">
                     <div className=" mb-0">
                     <div>
