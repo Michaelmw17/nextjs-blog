@@ -1,9 +1,11 @@
-import Image from 'next/image'
 
-export default function About() {
+export default function Work() {
     return (<>
-        <div id='work'  className="container mt-5 ">
-            <h1  className="m-2  mt-10 font-semibold text-gray-800 dark:text-white md:mt-10 text-3xl">Work Experience</h1>
+    <div className="wrapper">
+            <h1  id="work-h1" className="m-2  mt-10 font-semibold text-gray-800 dark:text-white md:mt-10 text-3xl">Work Experience</h1>
+        </div>
+
+        <div  className="container mt-5 ">
             <ul className="timeline">
                 <li>
                     <div className="direction-r">
@@ -77,7 +79,7 @@ export default function About() {
                                 <li>
                                 Handled cash, credit card and EFT facilities.
                                 </li>
-                                <li>
+                                <li  id="projects">
                                 Participated in team meetings and other work-related meetings. Ensured licensing laws and legislative requirements were adhered to.
                                 </li>
                             </ul>

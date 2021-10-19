@@ -1,13 +1,14 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import Header from '../components/Header/Header'
 import About from '../components/About/About'
 import Project from '../components/Projects/Projects'
 import Work from '../components/Work/Work'
 import Footer from '../components/Footer/Footer'
+// import { ParallaxProvider } from 'react-scroll-parallax';
+
 export default function Home() {
   return (<>
-        <div className="flex flex-col items-center justify-center min-h-screen py-2">
+        <div className="flex flex-col items-center justify-center min-h-screen py-0">
           <Head>
             <title>Michael's Portfolio</title>
             <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
@@ -16,7 +17,7 @@ export default function Home() {
             <link rel="manifest" href="/site.webmanifest"/>
             <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000"/>
             <link rel="preconnect" href="https://fonts.googleapis.com"/>
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true"/>
             <link rel="preconnect" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto&display=swap" rel="stylesheet"/>
             <meta name="msapplication-TileColor" content="#da532c"/>
             <meta name="theme-color" content="#ffffff"/>
@@ -24,10 +25,18 @@ export default function Home() {
           </Head>
           
           <main  id="about" className="flex-col items-center justify-center w-full flex-1  text-center">
-            <Header/>
-            <About/>
-            <Work/>
+            <div className="container">
+              <div className="shape-blob"></div>
+                <div className="shape-blob one"></div>
+                  <div  className="shape-blob two"></div>
+                    <div  className="shape-blob three"></div>
+                    <div  className="shape-blob four"></div>
+                    <div  className="shape-blob five"></div>
+                  <Header/>
+                <About/>
+              <Work/>
             <Project/>
+            </div>
           </main>
         </div>
       <Footer/>

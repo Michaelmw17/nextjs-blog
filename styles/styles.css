@@ -17,7 +17,12 @@ p {
   max-width: 1200px;
   width: 90%;
   margin: auto;
-  z-index: 9999;/* set this to something high*/
+  z-index: 9999;
+  /* set this to something high*/
   background-color:#fff; /* so you can see it is a block */
   min-width:100%;
+}
+
+#menu-toggle:checked + #menu {
+  display: block;
 }

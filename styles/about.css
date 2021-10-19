@@ -5,6 +5,9 @@
   background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
   color:white;
 }
+/* .headers {
+  background: rgb(249, 220, 220);
+} */
 .logo {
   width:50px;
   fill:white;
@@ -34,7 +37,7 @@
   margin-bottom:-7px; /*Fix for safari gap*/
   min-height:100px;
   max-height:150px;
-  background-color: aqua;
+  background-color: rgb(6, 253, 253);
   width: 100vw;
   position: relative;
   margin-left: -50vw;
