@@ -2,7 +2,7 @@
 export default function Work() {
     return (<>
     <div className="wrapper">
-            <h1  id="work-h1" className="m-2  mt-10 font-semibold text-gray-800 dark:text-white md:mt-10 text-3xl">Work Experience</h1>
+            <h3 id="work-h1" className="m-2 mt-10 font-semibold text-gray-800 dark:text-white md:mt-10 text-3xl">Work Experience</h3>
         </div>
 
         <div  className="container mt-5 ">

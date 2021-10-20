@@ -3,8 +3,8 @@ import Header from '../components/Header/Header'
 import About from '../components/About/About'
 import Project from '../components/Projects/Projects'
 import Work from '../components/Work/Work'
+import Hero from '../components/Hero/Hero'
 import Footer from '../components/Footer/Footer'
-// import { ParallaxProvider } from 'react-scroll-parallax';
 
 export default function Home() {
   return (<>
@@ -25,6 +25,10 @@ export default function Home() {
           </Head>
           
           <main  id="about" className="flex-col items-center justify-center w-full flex-1  text-center">
+            <div className="container-Hero">
+                <Header/>
+                <Hero/>
+              </div>
             <div className="container">
               <div className="shape-blob"></div>
                 <div className="shape-blob one"></div>
@@ -32,7 +36,6 @@ export default function Home() {
                     <div  className="shape-blob three"></div>
                     <div  className="shape-blob four"></div>
                     <div  className="shape-blob five"></div>
-                  <Header/>
                 <About/>
               <Work/>
             <Project/>

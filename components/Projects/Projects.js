@@ -4,7 +4,8 @@ export default function Projects() {
     return (<>
     <div className="project-container m-2 ">
         <h1
-        className="m-2 mt-10  font-semibold text-gray-800 dark:text-white md:mt-16 text-3xl">Projects</h1>
+        className="m-2 mt-10  font-semibold dark:text-white md:mt-16 text-3xl">
+        Projects</h1>
         <div className="lg:flex-row xl:flex justify-center mt-26 md:justify-end ">
             <div className="max-w-md px-8 py-4 mx-auto mt-16 bg-white rounded-lg shadow-lg dark:bg-gray-800">
                 <div className="flex justify-center -mt-16 md:justify-end">

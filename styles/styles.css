@@ -33,9 +33,11 @@ p {
    z-index:2;
     position:relative;
     width:100%;
-    /* height:400px; */
-    /* margin-top:300px; */
-    
-    /* background-color:white; */
-    /* padding-top:50px; */
+}
+.example {
+position:absolute !important;
+background-color: #05fdfd;
+z-index: -1;
+
+height: 700px !important;
 }
