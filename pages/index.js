@@ -24,7 +24,7 @@ export default function Home() {
             <meta name="description" content="This is My portfolio that I have created with NextJs, Tailwind and Deployed with Vercel. Author: M.Watt"/>
           </Head>
           
-          <main  id="about" className="flex-col items-center justify-center w-full flex-1  text-center">
+          <main className="flex-col items-center justify-center w-full flex-1  text-center">
             <div className="container-Hero">
                 <Header/>
                 <Hero/>
@@ -33,7 +33,7 @@ export default function Home() {
               <div className="shape-blob"></div>
                 <div className="shape-blob one"></div>
                   <div  className="shape-blob two"></div>
-                    <div  className="shape-blob three"></div>
+                    <div className="shape-blob three"></div>
                     <div  className="shape-blob four"></div>
                     <div  className="shape-blob five"></div>
                 <About/>

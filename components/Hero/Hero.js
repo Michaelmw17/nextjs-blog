@@ -85,41 +85,16 @@ const Hero = () => {
                 </p>
             </div>
             <div className={(`mt-10 flex justify-center items-center w-full mx-auto`)}>
-                {/* <Button primary>Get started</Button> */}
-                <button id="work"
-                className="bg-blue-500 hover:bg-blue-700 text-white font-bold mt-3 py-3 px-8 rounded-full"
-                onClick={() => {
-                    window.scrollTo({
-                        top: document.getElementById('work').offsetTop - 90,
-                        behavior: 'smooth'
-                    });
-                }}>
-                <i className="fas fa-arrow-alt-circle-down" aria-label="Arrow Down"></i>
+                <a href="#projects">
+                <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-bold hover:text-white py-2 px-4 my-4 border border-blue-500 rounded inline-flex items-center">
+                    <span>See my Projects</span>
+                    <svg className="ml-2 w-4 h-4 fill-current" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                    </svg>
                 </button>
-                <span className={(`mx-2`)}>or</span>
-                <button id="work"
-                    className="bg-blue-500 hover:bg-blue-700 text-white font-bold mt-3 py-3 px-8 rounded-full"
-                    onClick={() => {
-                        window.scrollTo({
-                            top: document.getElementById('work').offsetTop - 90,
-                            behavior: 'smooth'
-                        });
-                    }}>
-                    <i className="fas fa-arrow-alt-circle-down" aria-label="Arrow Down"></i>
-                    </button>
+                </a>
                 </div>
             </div>
-            {/* <div className={(`flex justify-center w-full`)}>
-            <div className={(`mt-4 w-full`)}>
-                <p className={(`font-mono uppercase text-center font-medium text-sm text-gray-600`)}>These folks get it</p>
-                <div className={(`flex items-center justify-center mx-auto flex-wrap`)}> */}
-                {/* <Aws className={(`m-12 mb-8`)} width={120} />
-                <Netlify className={(`m-12`)} width={140} />
-                <Nike className={(`m-12`)} width={140} />
-                <Figma className={(`m-12`)} width={140} /> */}
-                {/* </div>
-            </div>
-            </div> */}
         </div>
     );
 };

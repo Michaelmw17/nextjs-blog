@@ -2,8 +2,8 @@ import Image from 'next/image'
 
 export default function About() {
     return (<>
-            <figure className="about-section md:flex rounded-xl p-8  mt-0 md:p-6 md:m-6 md:mb-0 md:mt-36 lg:mt-36 lg:m-10 lg:mb-0">
-                <div className="max-w-md mt-11 mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl  mb-5 mt-40">
+            <figure id="about"  className="about-section md:flex rounded-xl p-8  mt-0 md:p-6 md:m-6 md:mb-0 md:mt-36 lg:mt-36 lg:m-10 lg:mb-0">
+                <div  className="max-w-md mt-11 mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl  mb-5 mt-40">
                     <div className="mb-0">
                     <div>
                             <svg className="waves" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -27,6 +27,7 @@ export default function About() {
                             <p className="mt-2 p-intro-two">Completed Internship with Entain, Certificate IV in Business Studies and have experience in customer service. I would describe my self as a driven, organised and open-minded person with creative ideas, who is motivated to use my skills and knowledge in a Web Development team. I hope for an exciting career and am always up for a challenge.</p>
                             <div className="mt-2 mb-0 md:flex-shrink-0 md:pt-5">
                             <Image 
+                            id="work"
                             className="w-32 h-32 md:w-48 md:h-auto  rounded-full mx-auto" 
                             src="/images/circle_cropped_xqZusntQvdP_-Y1oAejgs.jpg" alt="Profile" width="300" height="300"/>
                             </div>
