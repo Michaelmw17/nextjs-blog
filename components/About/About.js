@@ -2,8 +2,8 @@ import Image from 'next/image'
 
 export default function About() {
     return (<>
-            <figure className="about-section md:flex rounded-xl p-8  mt-0 md:p-6 md:m-6 md:mb-0 md:mt-36 lg:mt-36 lg:m-10 lg:mb-0">
-                <div id="about"  className="max-w-md mt-11 mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl  mb-5 mt-40">
+            <figure className="about-section md:flex rounded-xl p-8  mt-0 md:p-6 md:m-6 md:mb-0 lg:m-10 lg:mb-0">
+                <div id="about" className="max-w-md mt-11 mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl  mb-5 mt-40">
                     <div className="mb-0">
                     <div>
                             <svg className="waves" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"

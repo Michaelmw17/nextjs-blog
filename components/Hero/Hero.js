@@ -75,9 +75,9 @@ const Hero = () => {
 	    }
 	}} />
             <div className={(`max-w-4xl mx-auto mt-16 py-16 px-14 sm:px-6 lg:px-8`)}>
-            <h1 className={(`font-bold text-4xl  mt-36  md:text-5xl text-center leading-snug text-gray-800`)}>
+            <h1 className={(`font-bold  text-2xl mt-36 mb:0  md:text-4xl text-center text-gray-800`)}>
             Welcome to my portfolio<br/>
-                        My name is Michael
+                My name is Michael
             </h1>
             <div className={(`max-w-xl mx-auto`)}>
                 <p className={(`mt-10 text-gray-500 text-center text-xl lg:text-3xl`)}>
