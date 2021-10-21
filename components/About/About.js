@@ -3,7 +3,7 @@ import Image from 'next/image'
 export default function About() {
     return (<>
             <figure className="about-section md:flex rounded-xl p-8  mt-0 md:p-6 md:m-6 md:mb-0 lg:m-10 lg:mb-0">
-                <div id="about" className="max-w-md mt-11 mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl  mb-5 mt-40">
+                <div id="about" className="max-w-md  mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl  mb-5">
                     <div className="mb-0">
                     <div>
                             <svg className="waves" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -20,7 +20,7 @@ export default function About() {
                             </svg>
                         </div>
                         <div className="p-8 md:p-14 md:pt-1 leading-8 md:text-md mt-0">
-                        <h2 className={(`font-medium mt-0 m-3 text-4xl md:text-5xl  text-center`)}>
+                        <h2 className={(`font-medium mb-10 mt-0 m-3 text-4xl md:text-5xl  text-center`)}>
                             About
                             </h2>
                             <p className="mt-2 p-intro">I achieved my Certificate in Full Stack Web Development  at the University of Sydney. During my recent internship along with my Web Development study I have developed my skills in JavaScript, ReactJS, NodeJS, VueJS, jQuery, HandlebarsJS, HTML5/CSS3, SASS, API's, Node, AWS, Heroku, Go, MySQL, MongoDB, Jira, Confluence and more.</p>
