@@ -305,14 +305,14 @@
 	opacity:.7;
 	position: absolute;
 	left: 70%;
-	top: 50%;
+	bottom: 840px;
 }
 .shape-blob.one{
     z-index: -2;
 	height: 500px;
 	width: 500px;
 	left: -200px;
-	top: 2000px;
+	bottom: 0px;
 	transform: rotate(-180deg);
 	animation: transform 30s ease-in-out infinite both alternate, movement_two 60s ease-in-out infinite both;
 }
@@ -340,7 +340,7 @@
     height: 350px;
     width: 300px;
     left: -100px;
-    top: 3120px;
+    top: 2820px;
     transform: rotate(-180deg);
     animation: transform 30s ease-in-out infinite both alternate, movement_two 60s ease-in-out infinite both;
 }
@@ -349,7 +349,7 @@
     height: 250px;
     width: 300px;
     right: 100px;
-    top: 3150px;
+    top: 3034px;
     transform: rotate(-180deg);
     animation: transform 30s ease-in-out infinite both alternate, movement_two 60s ease-in-out infinite both;
 }
