@@ -97,7 +97,7 @@ export default function Work() {
                     Liaised weekly with the client to develop frontend
                     experience.
                   </li>
-                  <li>
+                  <li id="projects">
                     Development of website from design, deploy & domain
                     transfer.
                   </li>
