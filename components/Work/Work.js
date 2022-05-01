@@ -21,7 +21,7 @@ export default function Work() {
                 </span>
               </div>
               <div className="desc">
-                Full Stack Web Developer Internship
+                Junior Full Stack Web Developer
                 <br />
                 <ul>
                   <li>Meet Deadlines on-time.</li>
@@ -106,7 +106,7 @@ export default function Work() {
             </div>
           </li>
 
-          <li>
+          {/* <li>
             <div className="direction-r">
               <div className="flag-wrapper">
                 <span className="flag">Club York</span>
@@ -133,7 +133,7 @@ export default function Work() {
                 </ul>
               </div>
             </div>
-          </li>
+          </li> */}
         </ul>
       </div>
     </>

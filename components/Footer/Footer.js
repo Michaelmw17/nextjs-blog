@@ -78,14 +78,14 @@ export default function Footer() {
                       <i className="fab fa-linkedin  fa-2x"></i>
                     </a>
                   </li>
-                  <li className="mb-2">
+                  {/* <li className="mb-2">
                     <a
                       href="https://twitter.com/michaelDaleyOne"
                       className="text-blue-700  text-md hover:text-blue-500"
                     >
                       <i className="fab fa-twitter  fa-2x"></i>
                     </a>
-                  </li>
+                  </li> */}
                 </ul>
               </nav>
             </div>
