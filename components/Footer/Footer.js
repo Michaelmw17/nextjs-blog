@@ -12,8 +12,8 @@ export default function Footer() {
             <div className="col-span-8 md:col-span-3 lg:col-span-2 md:px-8 py-4 md:py-0">
               <h5 className="text-xl font-semibold text-gray-700">Contact</h5>
               <nav className="mt-4">
-                <ul className="space-y-2">
-                  <li>
+                <ul className="grid lg:grid-cols-3">
+                  <li className="mb-2">
                     <a
                       href="mailto:michaelmw17@outlook.com"
                       className="text-blue-700  text-md hover:text-blue-500"
@@ -24,7 +24,7 @@ export default function Footer() {
                       ></i>
                     </a>
                   </li>
-                  <li>
+                  <li className="mb-2">
                     <a
                       href="linkedin.com/in/michael-watt-6a76961b3/"
                       className="text-blue-700  text-md hover:text-blue-500"
