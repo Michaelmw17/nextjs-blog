@@ -15,7 +15,7 @@ export default function Work() {
           <li>
             <div className="direction-r">
               <div className="flag-wrapper">
-                <span className="flag">Greenstone Financial Services</span>
+                <span className="flag">Greenstone</span>
                 <span className="time-wrapper">
                   <span className="time">Nov 2022 - Current</span>
                 </span>
