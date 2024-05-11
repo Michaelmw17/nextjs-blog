@@ -13,6 +13,41 @@ export default function Work() {
       <div className="container mt-5">
         <ul className="timeline">
           <li>
+            <div className="direction-r">
+              <div className="flag-wrapper">
+                <span className="flag">Greenstone Financial Services</span>
+                <span className="time-wrapper">
+                  <span className="time">Nov 2022 - Current</span>
+                </span>
+              </div>
+              <div className="desc">
+                Frontend Developer
+                <br />
+                <li>
+                  Meeting deadlines on time: I consistently deliver projects
+                  within specified deadlines, ensuring timely completion.
+                </li>
+                <li>
+                  Experience with new frameworks for C# MVC applications: I am
+                  proficient in utilising the latest frameworks for C# MVC
+                  applications, staying up to date with emerging technologies.
+                </li>
+                <li>
+                  Implementing best practices for coding readability and
+                  maintainability: I prioritise clean and well-structured code,
+                  adhering to coding conventions and employing design patterns
+                  for easier maintenance.
+                </li>
+                <li>
+                  Collaborating with Marketing members for feature developments
+                  and projects: I actively engage with Marketing team members to
+                  incorporate their requirements and ensure the successful
+                  implementation of new UI/UX features.
+                </li>
+              </div>
+            </div>
+          </li>
+          <li>
             <div className="direction-l">
               <div className="flag-wrapper">
                 <span className="flag">Forexco</span>
@@ -27,7 +62,7 @@ export default function Work() {
                   <li>Meet Deadlines on-time.</li>
                   <li>
                     Implemented Mobile design features and reusable React
-                    components
+                    components.
                   </li>
                   <li>
                     Worked with design team and developing solutions using
@@ -105,35 +140,6 @@ export default function Work() {
               </div>
             </div>
           </li>
-
-          {/* <li>
-            <div className="direction-r">
-              <div className="flag-wrapper">
-                <span className="flag">Club York</span>
-                <span className="time-wrapper">
-                  <span className="time">February 2018 - July 2021</span>
-                </span>
-              </div>
-              <div className="desc">
-                {' '}
-                Bartender
-                <br />
-                <ul>
-                  <li>Managed the beverage service and customer requests.</li>
-                  <li>
-                    Maintained stock, managing and restocking pre-shift,
-                    reported on loss or damage.
-                  </li>
-                  <li>Handled cash, credit card and EFT facilities.</li>
-                  <li id="projects">
-                    Participated in team meetings and other work-related
-                    meetings. Ensured licensing laws and legislative
-                    requirements were adhered to.
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </li> */}
         </ul>
       </div>
     </>
