@@ -4,7 +4,7 @@ import About from '../components/About/About';
 import Project from '../components/Projects/Projects';
 import Work from '../components/Work/Work';
 import Hero from '../components/Hero/Hero';
-// import Footer from '../components/Footer/Footer';
+import Footer from '../components/Footer/Footer';
 
 export default function Home() {
   return (
@@ -68,7 +68,7 @@ export default function Home() {
           </div>
         </main>
       </div>
-      {/* <Footer/> */}
+      <Footer />
       <script
         src="https://kit.fontawesome.com/339a1b456b.js"
         crossOrigin="anonymous"
