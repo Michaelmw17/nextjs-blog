@@ -3,7 +3,10 @@ import Image from 'next/image';
 export default function Footer() {
   return (
     <>
-      <footer className="bg-gray-50 text-gray-600 px-6 lg:px-8 py-12">
+      <footer
+        id="contact"
+        className="bg-gray-50 text-gray-600 px-6 lg:px-8 py-12"
+      >
         <div className="max-w-screen-xl mx-auto ">
           <div className="grid grid-cols-8 md:grid-cols-9  lg:grid-cols-8  divide-gray-200 divide-y-2 md:divide-x-2 md:divide-y-0 md:-mx-8">
             <div className="col-span-8 md:col-span-3 lg:col-span-2 md:px-8 py-4 md:py-0">
@@ -106,3 +109,14 @@ export default function Footer() {
     </>
   );
 }
+document.addEventListener('DOMContentLoaded', () => {
+  const nextDiv = document.getElementById('__next');
+  if (nextDiv) {
+    const footers = nextDiv.querySelectorAll(
+      'footer#contact.bg-gray-50.text-gray-600.px-6.lg\\:px-8.py-12'
+    );
+    if (footers.length > 1) {
+      footers[1].remove(); // Remove the second occurrence
+    }
+  }
+});
