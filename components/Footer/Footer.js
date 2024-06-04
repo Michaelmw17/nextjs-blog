@@ -1,6 +1,19 @@
+import { useEffect } from 'react';
 import Image from 'next/image';
 
 export default function Footer() {
+  useEffect(() => {
+    const nextDiv = document.getElementById('__next');
+    if (nextDiv) {
+      const footers = nextDiv.querySelectorAll(
+        'footer#contact.bg-gray-50.text-gray-600.px-6.lg\\:px-8.py-12'
+      );
+      if (footers.length > 1) {
+        footers[1].remove(); // Remove the second occurrence
+      }
+    }
+  }, []);
+
   return (
     <>
       <footer
@@ -26,7 +39,7 @@ export default function Footer() {
                   </li>
                   <li className="mb-2">
                     <a
-                      href="linkedin.com/in/michael-watt-6a76961b3/"
+                      href="https://linkedin.com/in/michael-watt-6a76961b3/"
                       className="text-blue-700  text-md hover:text-blue-500"
                     >
                       <i className="fab fa-linkedin  fa-2x"></i>
@@ -72,7 +85,7 @@ export default function Footer() {
                   </li>
                   <li className="mb-2">
                     <a
-                      href="linkedin.com/in/michael-watt-6a76961b3/"
+                      href="https://linkedin.com/in/michael-watt-6a76961b3/"
                       className="text-blue-700  text-md hover:text-blue-500"
                     >
                       <i className="fab fa-linkedin  fa-2x"></i>
@@ -109,14 +122,3 @@ export default function Footer() {
     </>
   );
 }
-document.addEventListener('DOMContentLoaded', () => {
-  const nextDiv = document.getElementById('__next');
-  if (nextDiv) {
-    const footers = nextDiv.querySelectorAll(
-      'footer#contact.bg-gray-50.text-gray-600.px-6.lg\\:px-8.py-12'
-    );
-    if (footers.length > 1) {
-      footers[1].remove(); // Remove the second occurrence
-    }
-  }
-});
