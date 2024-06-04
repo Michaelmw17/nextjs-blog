@@ -68,7 +68,7 @@ export default function Home() {
           </div>
         </main>
       </div>
-      {/* <Footer /> */}
+      <Footer />
       <script
         src="https://kit.fontawesome.com/339a1b456b.js"
         crossOrigin="anonymous"
