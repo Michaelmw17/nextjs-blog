@@ -9,7 +9,7 @@ export default function Footer() {
         'footer#contact.bg-gray-50.text-gray-600.px-6.lg\\:px-8.py-12'
       );
       if (footers.length > 1) {
-        footers[1].remove(); // Remove the second occurrence
+        footers[0].remove(); // Remove the second occurrence
       }
     }
   }, []);
