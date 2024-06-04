@@ -3,17 +3,19 @@ import Image from 'next/image';
 
 export default function Footer() {
   useEffect(() => {
-    const nextDiv = document.getElementById('__next');
-    if (nextDiv) {
-      const footers = nextDiv.querySelectorAll(
-        'footer#contact.bg-gray-50.text-gray-600.px-6.lg\\:px-8.py-12'
-      );
-      if (footers.length > 1) {
-        footers[0].remove(); // Remove the second occurrence
+    // Ensure the DOM is ready
+    if (typeof window !== 'undefined') {
+      const nextDiv = document.getElementById('__next');
+      if (nextDiv) {
+        const footers = nextDiv.querySelectorAll(
+          'footer#contact.bg-gray-50.text-gray-600.px-6.lg\\:px-8.py-12'
+        );
+        if (footers.length > 1) {
+          footers[0].remove(); // Remove the second occurrence
+        }
       }
     }
   }, []);
-
   return (
     <>
       <footer
